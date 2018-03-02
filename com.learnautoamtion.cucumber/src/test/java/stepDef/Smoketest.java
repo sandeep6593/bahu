@@ -23,6 +23,7 @@ public class Smoketest {
 		driver.findElement(By.id("email")).sendKeys(uname);
 		driver.findElement(By.id("pass")).sendKeys(pass);
 		int i=20;
+		int y=2;
 	}
 
 	@Then("^user should be able to login successfully$")
