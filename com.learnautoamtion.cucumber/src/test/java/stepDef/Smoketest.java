@@ -22,6 +22,7 @@ public class Smoketest {
 	public void i_enter_valid_and_valid(String uname, String pass) throws Throwable {
 		driver.findElement(By.id("email")).sendKeys(uname);
 		driver.findElement(By.id("pass")).sendKeys(pass);
+		int i=10;
 	}
 
 	@Then("^user should be able to login successfully$")
